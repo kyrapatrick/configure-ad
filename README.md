@@ -65,3 +65,21 @@ Network Access shows Domain users have "Read" access.
 <p>
 A-Record "mainframe" created with IP address: 10.0.0.4.
 <br />
+<p>
+<img src="https://i.imgur.com/cT6tsZn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+DNS display showing "mainframe" A-Record with IP address 10.0.0.4
+<br />
+<p>
+<img src="https://i.imgur.com/QnWTUF6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+A-Record "mainframe" showing new IP adress 8.8.8.8
+<br /> 
+<p>
+<img src="https://i.imgur.com/FsUDYVv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+DNS display "mainframe" A-Record showing new IP address 8.8.8.8
+<br />   
