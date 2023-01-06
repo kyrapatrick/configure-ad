@@ -21,10 +21,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create 2 virtual machines using Azure:"DC-1" domain controller (server); "Client-1" (Windows 10)
+- Install Active Directory on DC-1 and join Client-1 to the domain 
+- Create user accounts (Domain users) in Active Directory 
+- Create folders in Active Directory and explore file shares on the network and permissions
+- Explore configuring DNS records
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -50,4 +51,17 @@ Organizational Groups "EMPLOYEES" AND "ADMINS" are created and Client-1 virtual 
 <p>
 Domain users created and allowed access to remote desktop.
 </p>
+<br />
+<p>
+<img src="https://i.imgur.com/uU03Q5z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Network Access shows Domain users have "Read" access.
+</p>
+<br />
+<p>
+<img src="https://i.imgur.com/TfE6ciQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+A-Record "mainframe" created with IP address: 10.0.0.4.
 <br />
